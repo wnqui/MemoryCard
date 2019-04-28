@@ -49,8 +49,6 @@ public class MemoryCard implements ActionListener, MouseListener, MouseMotionLis
 	String m;
 	String s;
 
-	Card c1 = new Card(7).setPos(200, 200, 100);
-
 	public MemoryCard() {
 
 		JF = new JFrame("Memory card Game");
@@ -76,8 +74,6 @@ public class MemoryCard implements ActionListener, MouseListener, MouseMotionLis
 	public void actionPerformed(ActionEvent e) {
 		ticks++;
 		time++;
-
-		// 遊戲開始，選擇難度
 
 		// 洗牌
 		if (shuffle) {
@@ -351,28 +347,22 @@ public class MemoryCard implements ActionListener, MouseListener, MouseMotionLis
 	}
 
 	@Override
-	public void mouseClicked(MouseEvent e) {
-	}
+	public void mouseClicked(MouseEvent e) {}
 
 	@Override
-	public void mouseEntered(MouseEvent arg0) {
-	}
+	public void mouseEntered(MouseEvent arg0) {}
 
 	@Override
-	public void mouseExited(MouseEvent arg0) {
-	}
+	public void mouseExited(MouseEvent arg0) {}
 
 	@Override
-	public void mouseReleased(MouseEvent arg0) {
-	}
+	public void mouseReleased(MouseEvent arg0) {}
 
 	@Override
-	public void mouseMoved(MouseEvent e) {
-	}
+	public void mouseMoved(MouseEvent e) {}
 
 	@Override
-	public void mouseDragged(MouseEvent arg0) {
-	}
+	public void mouseDragged(MouseEvent arg0) {}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
@@ -390,12 +380,10 @@ public class MemoryCard implements ActionListener, MouseListener, MouseMotionLis
 	}
 
 	@Override
-	public void keyReleased(KeyEvent e) {
-	}
+	public void keyReleased(KeyEvent e) {}
 
 	@Override
-	public void keyTyped(KeyEvent e) {
-	}
+	public void keyTyped(KeyEvent e) {}
 
 //end
 }
